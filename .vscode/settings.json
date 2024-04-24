@@ -1,0 +1,33 @@
+{
+    "dotfiles.respoitory": "https://github.com/emeril-upsite/dotfiles.git",
+    "dotfiles.targetPath": "~/dotfiles",
+    "editor.wordWrapColumn": 79,
+    "git.enabled": true,
+    "isort.args": [
+        "--settings-path",
+        "~/dotfiles",
+    ],
+    "python.formatting.provider": "none",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.linting.mypyENabled": true,
+    "python.linting.pylintArgs": [
+        "--rcfile",
+        "~/.pylintrc",
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintPath": "~/pylint",
+    "python.linting.mypyPath": "~/mypy",
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestPath": "~/pytest",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    },
+    "telemetry.telemtryLevel": "off",
+    "terminal.integrated.allowChords": true,
+    "terminal.integrated.commandsToSkipShell": ["-workbench.action.terminal.paste"],
+    "terminal.integrated.scrollback": 2000,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    }
+}

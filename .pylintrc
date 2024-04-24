@@ -1,0 +1,9 @@
+[MASTER]
+init-hook='import sys; sys.path.append("./src)'
+disable=C0411, # wrong-import-order --defer to isort
+        R0801, # similar-lines-in-x-files
+        W1203, # logging-fstring-interpolation --cleaner and performant
+        W1514, # unspecified-encoding
+
+[FORMAT]
+max-line-length=79
