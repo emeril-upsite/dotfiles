@@ -1,11 +1,11 @@
 {
     "dotfiles.respoitory": "https://github.com/emeril-upsite/dotfiles.git",
-    "dotfiles.targetPath": "~/dotfiles",
+    "dotfiles.targetPath": "~/AppData/Roaming/Code/dotfiles",
     "editor.wordWrapColumn": 79,
     "git.enabled": true,
     "isort.args": [
         "--settings-path",
-        "~/dotfiles",
+        "~/AppData/Roaming/Code/dotfiles",
     ],
     "python.formatting.provider": "none",
     "python.linting.enabled": true,
@@ -13,13 +13,13 @@
     "python.linting.mypyENabled": true,
     "python.linting.pylintArgs": [
         "--rcfile",
-        "~/.pylintrc",
+        "~/AppData/Roaming/Code/dotfiles/.pylintrc",
     ],
     "python.linting.pylintEnabled": true,
-    "python.linting.pylintPath": "~/pylint",
-    "python.linting.mypyPath": "~/mypy",
+    "python.linting.pylintPath": "~/AppData/Roaming/Code/dotfiles/pylint",
+    "python.linting.mypyPath": "~/AppData/Roaming/Code/dotfiles/mypy",
     "python.testing.pytestEnabled": true,
-    "python.testing.pytestPath": "~/pytest",
+    "python.testing.pytestPath": "~/AppData/Roaming/Code/dotfiles/pytest",
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
     },
