@@ -1,11 +1,11 @@
 {
     "dotfiles.respoitory": "https://github.com/emeril-upsite/dotfiles.git",
-    "dotfiles.targetPath": "~/AppData/Roaming/Code/dotfiles",
+    "dotfiles.targetPath": "~/Documents/GitHub/dotfiles",
     "editor.wordWrapColumn": 79,
     "git.enabled": true,
     "isort.args": [
         "--settings-path",
-        "~/AppData/Roaming/Code/dotfiles",
+        "~/Documents/GitHub/dotfiles",
     ],
     "python.formatting.provider": "none",
     "python.testing.pytestEnabled": true,
